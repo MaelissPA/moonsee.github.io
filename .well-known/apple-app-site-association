@@ -4,7 +4,12 @@
     "details": [
       {
         "appID": "NLP9P644Q6.moonsee.app",
-        "paths": ["*"]
+        "components":[
+          {
+            "/":"/detailExperience/*",
+            "comment":"Matches any URL with a path that starts with /detailExperience/."
+          }
+        ]
       }
     ]
   }
